@@ -1,0 +1,58 @@
+:root {
+    --t--family-condensed: 'Escrow Banner Condensed';
+    --t--family-serif: 'Escrow Text';
+    --t--family-sans: 'Retina Wide';
+
+    --t--size-xl: 56px;
+    --t--size-l: 30px;
+    --t--size-m: 24px;
+    --t--size-s: 16px;
+    --t--size-xs: 12px;
+}
+
+.t--family-condensed { font-family: var(--t--family-condensed); }
+.t--family-serif { font-family: var(--t--family-serif); }
+.t--family-sans { font-family: var(--t--family-sans); }
+
+.t--weight-light { font-weight: 200; }
+.t--weight-normal { font-weight: 400; }
+
+.t--transform-uppercase { text-transform: uppercase; }
+
+.t--align-center { text-align: center; }
+
+.t--color-jet { color: var(--c--jet); }
+.t--color-coal { color: var(--c--coal); }
+.t--color-nickel { color: var(--c--nickel); }
+.t--color-moon { color: var(--c--moon); }
+.t--color-silver { color: var(--c--silver); }
+.t--color-smoke { color: var(--c--smoke); }
+.t--color-snow { color: var(--c--snow); }
+.t--color-white { color: var(--c--white); }
+
+.t--size-xl {
+    font-size: var(--t--size-xl);
+    line-height: var(--t--size-xl);
+}
+
+.t--size-l {
+    font-size: var(--t--size-l);
+    line-height: var(--t--size-l);
+}
+
+.t--size-m {
+    font-size: var(--t--size-m);
+    line-height: var(--t--size-m);
+}
+
+.t--size-s {
+    font-size: var(--t--size-s);
+    line-height: var(--t--size-m);
+}
+
+.t--size-xs{
+    font-size: var(--t--size-xs);
+    line-height: var(--t--size-xs);
+}
+
+.t--kering-m { letter-spacing: 0.5px; }

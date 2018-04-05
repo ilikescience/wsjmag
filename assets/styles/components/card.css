@@ -1,0 +1,22 @@
+.card {
+    display: flex;
+}
+
+.card--horizontal {
+    flex-direction: row;
+}
+
+.card--vertical {
+    flex-direction: column;
+}
+
+.card--small {
+    & .card--text {
+        flex: 0 1 auto;
+        margin-right: var(--l--space-m);
+    }
+
+    & .card--image {
+        flex: 1 0 150px;
+    }
+}
