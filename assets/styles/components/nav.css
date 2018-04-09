@@ -1,18 +1,17 @@
-
 .nav {
+    display: flex;
     position: fixed;
     top: 0;
-    left: 0;
     right: 0;
-    display: flex;
+    left: 0;
+    padding: 15px 10px;
+    z-index: 999;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    padding: 15px 10px;
     border-bottom: 1px solid var(--c--silver);
     background: white;
-    z-index: 999;
 }
 
 .nav svg {

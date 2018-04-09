@@ -1,5 +1,14 @@
 extends ../layouts/default
 
+include ../components/card.pug
+include ../components/strap.pug
+
 block content
+    .spacer.container.l--padding-top-xl
+    .ad.container.l--margin-top-xl
+        img(src="images/ad-1.png")
     include ../partials/nav.pug
+    include ../partials/pagehead.pug
     include ../partials/slideshow.pug
+    include ../partials/issues.pug
+    +strap('Culture')

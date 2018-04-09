@@ -1,5 +1,12 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
 html {
-    text-size-adjust: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 body {
@@ -14,8 +21,8 @@ h4,
 p,
 blockquote,
 figure {
-    margin-top: 0;
     padding: 0;
+    margin-top: 0;
 }
 
 ol,
@@ -66,8 +73,8 @@ button {
 }
 
 img {
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
     border: 0;
 }
 

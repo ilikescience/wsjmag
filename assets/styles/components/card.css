@@ -20,3 +20,7 @@
         flex: 1 0 150px;
     }
 }
+
+.card--left {
+    flex-direction: row-reverse;
+}

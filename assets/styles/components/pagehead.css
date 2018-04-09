@@ -1,0 +1,20 @@
+.pagehead--top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-content: stretch;
+    border-bottom: 1px solid var(--c--silver);
+}
+
+.pagehead--logo svg {
+    width: 100%;
+    height: auto;
+    fill: var(--c--jet);
+    max-width: 100px;
+}
+
+.pagehead--bottom-subhead {
+    height: auto;
+    margin: 5px auto;
+    max-width: 300px;
+}

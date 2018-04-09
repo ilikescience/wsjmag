@@ -2,10 +2,9 @@
     --t--family-condensed: 'Escrow Banner Condensed';
     --t--family-serif: 'Escrow Text';
     --t--family-sans: 'Retina Wide';
-
     --t--size-xl: 56px;
     --t--size-l: 30px;
-    --t--size-m: 24px;
+    --t--size-m: 22px;
     --t--size-s: 16px;
     --t--size-xs: 12px;
 }
@@ -50,7 +49,7 @@
     line-height: var(--t--size-m);
 }
 
-.t--size-xs{
+.t--size-xs {
     font-size: var(--t--size-xs);
     line-height: var(--t--size-xs);
 }

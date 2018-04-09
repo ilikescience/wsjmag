@@ -2,7 +2,18 @@
 @import 'global/color';
 @import 'global/layout';
 @import 'global/type';
-
 @import 'components/nav';
 @import 'components/slideshow';
 @import 'components/card';
+@import 'components/pagehead';
+@import 'components/divider';
+@import 'components/ad';
+@import 'components/issues';
+@import 'components/strap';
+
+body {
+    font-family: var(--t--family-serif);
+    color: var(--c--coal);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}

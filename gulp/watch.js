@@ -3,6 +3,7 @@ module.exports = function(gulp) {
         // Add your watch tasks here (must be prefixed with watch:)
         'watch:styles',
         'watch:templates',
-        'watch:images'
+        'watch:images',
+        'watch:scripts'
     ]);
 };
