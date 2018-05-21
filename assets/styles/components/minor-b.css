@@ -1,0 +1,57 @@
+.minor-b {
+    position: relative;
+    margin: 0 20px;
+
+    & .scrolltrack {
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        max-width: 100%;
+    }
+
+    & .card {
+        flex: 0 1 calc(25% - 15px);
+
+        @media (--8u) {
+            flex: 0 1 calc(50% - 15px);
+        }
+
+        @media (--4u) {
+            flex: 1 0 calc(75%);
+            margin-right: 20px;
+        }
+    }
+
+    @media (--4u) {
+        margin: 0;
+
+        & .scrolltrack {
+            padding: 0 0 0 20px;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+        }
+
+        & .gradient {
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 20px;
+            width: 20px;
+            z-index: 500;
+        }
+
+        & .gradient--before {
+            left: 0;
+            background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+        }
+
+        & .gradient--after {
+            right: 0;
+            background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+        }
+    }
+}

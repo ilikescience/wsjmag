@@ -1,9 +1,12 @@
 mixin card(size, direction, media)
     .card(class='card--' + size + ' card--' + direction + ' card--' + media)
         .card--text
-            .t--family-sans.t--size-xs.t--weight-light.t--transform-uppercase.t--kering-m.l--margin-bottom-s #{attributes.flashline}
+            if attributes.flashline
+                .t--family-sans.t--size-xs.t--weight-light.t--transform-uppercase.t--kering-m.l--margin-bottom-s #{attributes.flashline}
             .t--family-condensed.t--size-l.l--margin-bottom-m #{attributes.title}
-            .divider--small.l--margin-bottom-m
-            .t--family-serif.t--size-s.l--margin-bottom-l.t--color-nickel #{attributes.summary}
-        .card--image
-            img(src=attributes.image)
+            if attributes.summary
+                .divider--small.l--margin-bottom-m
+                .t--family-serif.t--size-s.l--margin-bottom-l.t--color-nickel #{attributes.summary}
+        if attributes.image
+            .card--image
+                img(src=attributes.image)

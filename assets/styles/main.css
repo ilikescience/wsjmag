@@ -10,6 +10,7 @@
 @import 'components/ad';
 @import 'components/issues';
 @import 'components/strap';
+@import 'components/minor-b';
 
 body {
     font-family: var(--t--family-serif);

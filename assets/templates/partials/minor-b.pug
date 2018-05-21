@@ -1,0 +1,24 @@
+include ../components/card.pug
+include ../components/strap.pug
+
++strap('Columnists')
+.minor-b.l--container
+    .gradient.gradient--before
+    .scrolltrack.l--padding-bottom-xl
+        +card('small', 'vertical', 'top')(
+            title='Tim Howard, Goldie Hawn, and More on Youth',
+            image='images/column-1.png'
+        )
+        +card('small', 'vertical', 'top')(
+            title='RuPaul, Curtis Sittenfeld and More on Identity',
+            image='images/column-2.png'
+        )
+        +card('small', 'vertical', 'top')(
+            title='Moby, Ashley Graham,  and More on Control',
+            image='images/column-3.png'
+        )
+        +card('small', 'vertical', 'top')(
+            title='Kim Deal, Isabella Rossellini and More on Admiration',
+            image='images/column-4.png'
+        )
+    .gradient.gradient--after

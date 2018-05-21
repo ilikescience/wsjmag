@@ -4,7 +4,16 @@
     --l--space-l: 20px;
     --l--space-m: 10px;
     --l--space-s: 5px;
+    --l--break-16u: 1280px;
+    --l--break-12u: 980px;
+    --l--break-8u: 640px;
+    --l--break-4u: 375px;
 }
+
+@custom-media --16u (width >= 960px);
+@custom-media --12u (width <= 960px) and (width > 640px);
+@custom-media --8u (width <= 640px) and (width > 350px);
+@custom-media --4u (width <= 375px);
 
 .l--container {
     margin: 0 auto;
