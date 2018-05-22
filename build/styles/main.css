@@ -513,8 +513,7 @@ table {
             transform: translate(-50%, -12%);
 }
 .minor-b {
-    position: relative;
-    margin: 0 20px
+    position: relative
 }
 .minor-b .scrolltrack {
     display: -webkit-box;
@@ -553,7 +552,7 @@ table {
 }
 @media (max-width: 375px) {
     .minor-b {
-        margin: 0;
+        margin: 0 20px;
     }
     .minor-b .scrolltrack {
         padding: 0 0 0 20px;
